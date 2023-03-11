@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="20dp"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_radio"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            <LinearLayout
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="Arif Hidayat"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+
+                    android:text="Guru"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#0101CB"
+                android:text="Follow"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Beranda"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/card1"
+                    android:backgroundTint="#0101CB">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Pertama"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/card1"
+                    android:backgroundTint="#00009F">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Kedua"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/card1"
+                    android:backgroundTint="#8B7F00">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Ketiga"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/card1"
+                    android:backgroundTint="#8B7F00">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Keempat"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/card1"
+                    android:backgroundTint="#FFBF00">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Kelima"/>
+                </LinearLayout>
+             j</LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
